@@ -1,0 +1,17 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #d97757;
+  color: #0e0d0b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-feature-settings: "ss01", "ss02";
+}
