@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from "react";
 
-const WHATSAPP_NUMBER = "55491145678901"; // <-- REEMPLAZAR con tu número real (formato internacional sin +)
+const WHATSAPP_NUMBER = "5491131871886"; // <-- REEMPLAZAR con tu número real (formato internacional sin +)
 const WA_BASE = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const waLink = (msg: string) =>
